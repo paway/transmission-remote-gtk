@@ -11,13 +11,17 @@ The following packages are required dependencies:
 ```bash
 autoconf-archive appstream-glib intltool
 ```
+*for debian*
+```
+apt install build-essential libjson-glib-dev libgeoip-dev \
+                libnotify-bin  libmrss0-dev libproxy-dev
+```
 
 
 # BUILDING
 
 Optionally install `libgeoip` and its headers to see the country
 origin of peers.
-
 
 ##  Building a transmission-remote-gtk release from the command line:
 

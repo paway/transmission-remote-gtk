@@ -14,7 +14,8 @@ autoconf-archive appstream-glib intltool
 *for debian*
 ```
 apt install build-essential libjson-glib-dev libgeoip-dev \
-                libnotify-bin  libmrss0-dev libproxy-dev
+                libnotify-bin  libmrss0-dev libproxy-dev \
+                libappindicator3-1
 ```
 
 
